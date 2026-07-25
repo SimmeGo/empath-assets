@@ -1,7 +1,7 @@
 local CONFIG = {
   TOKEN_NAME           = "Wagon",
   TOKEN_IMAGE          = "https://raw.githubusercontent.com/SimmeGo/empath-assets/refs/heads/main/Wheelwright/wagon%20tile.png", -- transparent PNG
-  TOKEN_TAGS           = { "Has Action", "Has Aid Tokens", "Has Conditions", "Has Health", "Terrain" },
+  TOKEN_TAGS           = { "Has Action", "Has Aid Tokens", "Has Conditions", "Has Health", "Terrain", "Difficult Terrain" },
 
   TOKEN_SCALE          = { 0.35, 0.6, 0.35 }, -- token size (X/Z = diameter). Lower = smaller. TUNE.
   TOKEN_THICKNESS      = 0.2,
