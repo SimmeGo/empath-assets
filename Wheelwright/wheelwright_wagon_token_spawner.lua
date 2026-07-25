@@ -1,6 +1,6 @@
 local CONFIG = {
-  TOKEN_NAME           = "Rimearc",
-  TOKEN_IMAGE          = "<The image URL>", -- transparent PNG
+  TOKEN_NAME           = "Wagon",
+  TOKEN_IMAGE          = "https://raw.githubusercontent.com/SimmeGo/empath-assets/refs/heads/main/Wheelwright/wagon%20tile.png", -- transparent PNG
   TOKEN_TAGS           = { "Has Action", "Has Aid Tokens", "Has Conditions", "Has Health", "Terrain" },
 
   TOKEN_SCALE          = { 0.35, 0.6, 0.35 }, -- token size (X/Z = diameter). Lower = smaller. TUNE.
@@ -8,11 +8,11 @@ local CONFIG = {
   TOKEN_MERGE_DISTANCE = 15,
 
   USE_SHADOW_BUNDLE    = false, -- false = minimal token (works); true = attach bundle (crashes when raw-spawned)
-  TOKEN_SCRIPT_URL     = "<Token script address>",
+  TOKEN_SCRIPT_URL     = "https://github.com/SimmeGo/empath-assets/Wheelwright/wheelwright_wagon_tokens.lua",
 
-  ANCHOR_NAME_CONTAINS = "Arctic Zephyr",
+  ANCHOR_NAME_CONTAINS = "Wheelwright",
 
-  POOL_NAME            = "Rimearc",
+  POOL_NAME            = "Wagons",
   -- WORLD-space offset from the anchor (character sheet/standee):
   --   [1] X: + right,  - left
   --   [2] Y: + up off the table (keep small so it rests on the table)
