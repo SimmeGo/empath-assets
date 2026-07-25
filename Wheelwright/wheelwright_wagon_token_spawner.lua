@@ -8,7 +8,7 @@ local CONFIG = {
   TOKEN_MERGE_DISTANCE = 15,
 
   USE_SHADOW_BUNDLE    = false, -- false = minimal token (works); true = attach bundle (crashes when raw-spawned)
-  TOKEN_SCRIPT_URL     = "https://github.com/SimmeGo/empath-assets/Wheelwright/wheelwright_wagon_tokens.lua",
+  TOKEN_SCRIPT_URL     = "https://raw.githubusercontent.com/SimmeGo/empath-assets/Wheelwright/wheelwright_wagon_tokens.lua",
 
   ANCHOR_NAME_CONTAINS = "Wheelwright",
 
